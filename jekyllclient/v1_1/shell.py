@@ -24,13 +24,13 @@ from jekyllclient.config import CONF
         dest='category',
         metavar='<category>',
         help='the category of the new blog',
-        default='未分类',
+        default='unclassified',
         )
 @utils.arg('-T','--tags',
         dest='tags',
         metavar='<tags>',
         help='the tags of the new blog',
-        default='无',
+        default='None',
         )
 @utils.arg('--layout',
         dest='layout',
@@ -76,8 +76,8 @@ def _get_meta_interactive():
     meta = {}
     while not meta.get('title', None):
         meta['title'] = raw_input("title:").strip()
-    meta['category'] = raw_input("category[default '未分类'] : ").strip() or '未分类'
-    meta['tags'] = raw_input("comma-separated list of tags[default '无']: ").strip() or '无'
+    meta['category'] = raw_input("category[default 'Unclassified'] : ").strip() or 'Unclassified'
+    meta['tags'] = raw_input("comma-separated list of tags[default 'None']: ").strip() or 'None'
     meta['layout'] = raw_input("layout[default 'post']: ").strip() or 'post'
     meta['comments'] = raw_input("layout[default 'true']: ").strip() or 'true'
     return meta
