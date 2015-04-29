@@ -20,7 +20,7 @@ def add_arg(func, *args, **kwargs):
         func.arguments = []
     if (args, kwargs) not in func.arguments:
         func.arguments.insert(0, (args, kwargs))
-def charAt(s, c, nth = 1):
+def charAt(s, c, count = 1):
     """ Find the nth index of char 'c' in the string 's' """
     for i in range(len(s)):
         if s[i] == c:
