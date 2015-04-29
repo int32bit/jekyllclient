@@ -1,6 +1,6 @@
 # jekyllclient
 
-A jekyllclient to manager your posts in local
+An easy jekyllclient to manager your posts in your local host.
 
 ## How to use
 
@@ -17,7 +17,7 @@ username = <your usename>
 
 Once you finish the work above, Let's go!
 
-You can run './blog help' to show messages:
+Don't know show to work ? Run './blog help' to show help messages:
 
 ```
 usage: blog [--version] [--debug] <subcommand> ...
@@ -74,4 +74,9 @@ Once you get a new fresh idea and want to write down to your blog, run `blog cre
 this smart script will set your metedata automatically, and call your editor depend on your EDITOR environment
 
 Let's record our life by jekyll from now!
+
+## Issure & PR
+
+Yes, welcome! 
+
 
