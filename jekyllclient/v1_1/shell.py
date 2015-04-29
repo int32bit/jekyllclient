@@ -3,12 +3,12 @@
 from __future__ import print_function
 import sys
 import time
-sys.path.append("..")
-import utils
 import glob
 import os
-from Post import Post
-from config import CONF
+
+from jekyllclient import utils
+from jekyllclient.Post import Post
+from jekyllclient.config import CONF
 
 @utils.arg('--disable-comments',
         dest='comments',
