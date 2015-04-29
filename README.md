@@ -6,7 +6,12 @@ An easy jekyllclient to manager your posts in your local host.
 
 That's easy to use once you configure it :) !
 
-All the configure items are in the conf/blog.conf and it easy to configure !
+All the configure items are in the conf/blog.conf and it easy to configure ! If you change the location of this config file, you need to set `JEKYLL_CONF` environment variable as follows:
+
+```bash
+export JEKYLL_CONF=path/to/yourconf
+````
+All your config items should be in site section as follows:
 
 ```conf
 [site]
