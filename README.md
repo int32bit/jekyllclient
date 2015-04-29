@@ -17,7 +17,7 @@ username = <your usename>
 
 Once you finish the work above, Let's go!
 
-Don't know show to work ? Run './blog help' to show help messages:
+Don't know how to work ? Run './blog help' to show help messages:
 
 ```
 usage: blog [--version] [--debug] <subcommand> ...
