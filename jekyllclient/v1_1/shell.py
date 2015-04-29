@@ -7,7 +7,7 @@ import glob
 import os
 
 from jekyllclient import utils
-from jekyllclient.Post import Post
+from jekyllclient.post import Post
 from jekyllclient.config import CONF
 
 @utils.arg('--disable-comments',
